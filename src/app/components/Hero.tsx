@@ -6,7 +6,7 @@ export const Hero = () => (
   <PageSection className="pt-20 pb-16 text-center lg:pt-32">
     <div className="mx-auto max-w-4xl">
       <Text as="h1" size="3xl" className="font-display font-medium tracking-tight sm:text-7xl">
-        Projects
+        Finally
         {' '}
         <span className="relative whitespace-nowrap">
           <svg
@@ -20,7 +20,7 @@ export const Hero = () => (
 
           <span className="relative">
             <Text as="span" size="3xl" color="accent" className="sm:text-7xl">
-              made easy
+              stop guessing
             </Text>
           </span>
         </span>
@@ -29,7 +29,7 @@ export const Hero = () => (
 
     <div className="mx-auto mt-6 max-w-2xl">
       <Text size="lg" className="tracking-tight">
-        Hire an AI Agent to manage your projects, from ideation to closeout.
+        Get a personalized snapshot of your offer, audience and landing page in just 3 minutes.
       </Text>
     </div>
 
