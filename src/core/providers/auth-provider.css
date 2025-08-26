@@ -1,0 +1,4 @@
+/* Remove unwanted border applied by Clerk by targeting Clerk's internal class */
+.cl-internal-1dauvpw {
+  border-top: 0 !important;
+}

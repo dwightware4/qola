@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/forms';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* COLORS */
+  --color-accent-50: #ecf5ee;
+  --color-accent-100: #daebdd;
+  --color-accent-200: #b5d7bb;
+  --color-accent-300: #8fc29a;
+  --color-accent-400: #6aae78;
+  --color-accent-500: #459a56;
+  --color-accent-600: #377b45;
+  --color-accent-700: #295c34;
+  --color-accent-800: #1c3e22;
+  --color-accent-900: #0e1f11;
+
+  --color-main-50: #e6e6ec;
+  --color-main-100: #ccccd9;
+  --color-main-200: #9999b3;
+  --color-main-300: #66668d;
+  --color-main-400: #333367;
+  --color-main-500: #000041;
+  --color-main-600: #000034;
+  --color-main-700: #000027;
+  --color-main-800: #00001a;
+  --color-main-900: #00000d;
+
+  --color-charcoal: #2b2b2b;
+
+  /* TEXT */
+  --text-*: initial;
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.75rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 2rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 2rem;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2rem;
+  --text-3xl: 2rem;
+  --text-3xl--line-height: 2.5rem;
+  --text-4xl: 2.5rem;
+  --text-4xl--line-height: 3.5rem;
+  --text-5xl: 3rem;
+  --text-5xl--line-height: 3.5rem;
+  --text-6xl: 3.75rem;
+  --text-6xl--line-height: 1;
+  --text-7xl: 4.5rem;
+  --text-7xl--line-height: 1.1;
+  --text-8xl: 6rem;
+  --text-8xl--line-height: 1;
+  --text-9xl: 8rem;
+  --text-9xl--line-height: 1;
+
+  /* LAYOUT */
+  --radius-4xl: 2rem;
+
+  --container-2xl: 40rem;
+}
