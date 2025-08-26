@@ -8,7 +8,9 @@ import { ArrowUpOnSquareIcon, PhotoIcon, XMarkIcon } from '@/icons'
 
 export const Dropzone = (props: Partial<DropzoneProps>) => (
   <MantineDropzone
+    /* eslint-disable-next-line no-console */
     onDrop={files => console.log('accepted files', files)}
+    /* eslint-disable-next-line no-console */
     onReject={files => console.log('rejected files', files)}
     maxSize={5 * 1024 ** 2}
     accept={IMAGE_MIME_TYPE}
