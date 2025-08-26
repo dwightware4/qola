@@ -5,7 +5,7 @@ import { WaitlistButton } from './WaitlistButton'
 export const Hero = () => (
   <PageSection className="pt-20 pb-16 text-center lg:pt-32">
     <div className="mx-auto max-w-4xl">
-      <Text as="h1" size="7xl" className="font-display font-medium tracking-tight">
+      <Text as="h1" size="3xl" className="font-display font-medium tracking-tight sm:text-7xl">
         Projects
         {' '}
         <span className="relative whitespace-nowrap">
@@ -19,7 +19,7 @@ export const Hero = () => (
           </svg>
 
           <span className="relative">
-            <Text as="span" size="7xl" color="accent">
+            <Text as="span" size="3xl" color="accent" className="sm:text-7xl">
               made easy
             </Text>
           </span>
