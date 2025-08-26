@@ -6,16 +6,16 @@
 
 @theme {
   /* COLORS */
-  --color-accent-50: #ecf5ee;
-  --color-accent-100: #daebdd;
-  --color-accent-200: #b5d7bb;
-  --color-accent-300: #8fc29a;
-  --color-accent-400: #6aae78;
-  --color-accent-500: #459a56;
-  --color-accent-600: #377b45;
-  --color-accent-700: #295c34;
-  --color-accent-800: #1c3e22;
-  --color-accent-900: #0e1f11;
+  --color-accent-50: #fff7eb;
+  --color-accent-100: #fde9c8;
+  --color-accent-200: #fbd28c;
+  --color-accent-300: #f9b350;
+  --color-accent-400: #f7941d;
+  --color-accent-500: #f1750f;
+  --color-accent-600: #d5530a;
+  --color-accent-700: #b1360c;
+  --color-accent-800: #902b10;
+  --color-accent-900: #762311;
 
   --color-main-50: #e6e6ec;
   --color-main-100: #ccccd9;

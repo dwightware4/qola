@@ -16,7 +16,8 @@ export const MAIN_DARK = '#ffffff'
 export const SURFACE_LIGHT = '#ffffff'
 export const SURFACE_DARK = '#2b2b2b'
 
-export const ACCENT = '#459a56'
+export const ACCENT = '#f7941d'
+// #f7941d
 
 type ColorThemeT = readonly [
   string,
@@ -32,16 +33,16 @@ type ColorThemeT = readonly [
 ]
 
 export const ACCENT_COLORS: ColorThemeT = [
-  '#ecf5ee', // 50
-  '#daebdd', // 100
-  '#b5d7bb', // 200
-  '#8fc29a', // 300
-  '#6aae78', // 400
+  '#fff7eb', // 50
+  '#fde9c8', // 100
+  '#fbd28c', // 200
+  '#f9b350', // 300
+  '#f7941d', // 400
   ACCENT, // 500
-  '#377b45', // 600
-  '#295c34', // 700
-  '#1c3e22', // 800
-  '#0e1f11', // 900
+  '#d5530a', // 600
+  '#b1360c', // 700
+  '#902b10', // 800
+  '#762311', // 900
 ]
 
 export const MAIN_COLORS: ColorThemeT = [
