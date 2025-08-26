@@ -16,7 +16,7 @@ const PrivacyPage = () => (
       <br />
       <br />
       For purposes of this Agreement, “Site” refers to the Company’s website, which can be
-      accessed at buildflow.app.
+      accessed at qola.app.
       <br />
       <br />
       “Service” refers to the Company’s services accessed via the Site, in which users can sign
@@ -31,7 +31,7 @@ const PrivacyPage = () => (
       <br />
       <br />
       By accessing our Site or our Service, you accept our Privacy Policy and Terms of Use (found
-      here: buildflow.app/terms), and you consent to our collection, storage, use and disclosure
+      here: qola.app/terms), and you consent to our collection, storage, use and disclosure
       of your Personal Information as described in this Privacy Policy.
     </Section>
 

@@ -9,7 +9,7 @@ export const metadata: MetadataT = {
 const TermsPage = () => (
   <PolicyDocument title="Terms of Use" effectiveDate="June 28, 2025">
     <Section>
-      The website located at buildflow.app (the “Site”) is a copyrighted work belonging to
+      The website located at qola.app (the “Site”) is a copyrighted work belonging to
       MindCycle AI (“Company”, “us”, “our”, and “we”). Certain features of the Site may be subject
       to additional guidelines, terms, or rules, which will be posted on the Site in connection
       with such features. All such additional terms, guidelines, and rules are incorporated by

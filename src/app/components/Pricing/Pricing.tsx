@@ -19,7 +19,7 @@ export const Pricing = () => (
         <div className="mt-4">
           <Text size="lg">
             From single-family residential to 40+ story high-rises and regional hospitals,
-            BuildFlow Agent is priced for every business.
+            QOLA Agent is priced for every business.
           </Text>
         </div>
       </div>

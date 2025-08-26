@@ -1,4 +1,4 @@
-export const APP_NAME = 'BuildFlow' as const
+export const APP_NAME = 'QOLA' as const
 
 export const ROOT_ROUTE = '/' as const
 

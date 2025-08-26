@@ -1,5 +1,5 @@
 import { PageSection, Text } from '@/components'
-import { Logo } from '@/core'
+import { APP_NAME, Logo } from '@/core'
 
 export const Footer = () => (
   <PageSection>
@@ -15,7 +15,8 @@ export const Footer = () => (
             {' '}
             {new Date().getFullYear()}
             {' '}
-            BuildFlow. All rights reserved.
+            {APP_NAME}
+            . All rights reserved.
           </Text>
         </div>
       </div>
