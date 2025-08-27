@@ -14,7 +14,7 @@ export const Modal = (props: PropsT) => {
   const { children, opened, onClose } = props
 
   return (
-    <MantineModal opened={opened} onClose={onClose}>
+    <MantineModal opened={opened} onClose={onClose} centered>
       {children}
     </MantineModal>
   )

@@ -1,6 +1,6 @@
 import type { MetadataT, ReactNodeT, ReadonlyT } from '@/types'
-import { Inter } from 'next/font/google'
 
+import { Inter } from 'next/font/google'
 import {
   APP_NAME,
   LogRocketBridge,
@@ -10,8 +10,8 @@ import {
 } from '@/core'
 
 import { cn } from '@/utils'
-import '@mantine/core/styles.css'
 
+import '@mantine/core/styles.css'
 import '@/core/theme/globals.css'
 
 const font = Inter({ subsets: ['latin'] })
