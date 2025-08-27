@@ -21,7 +21,7 @@ export const Providers = (props: PropsT) => {
       disableTransitionOnChange
       forcedTheme="dark"
     >
-      <MantineProvider theme={MANTINE_THEME}>
+      <MantineProvider theme={MANTINE_THEME} defaultColorScheme="dark">
         <ThemeToggle />
 
         <AuthProvider>{children}</AuthProvider>
