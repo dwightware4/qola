@@ -1,4 +1,4 @@
 import { Button } from '@/components'
 import { WAITLIST_ROUTE } from '@/core'
 
-export const WaitlistButton = () => <Button href={WAITLIST_ROUTE}>Generate My Free Blueprint</Button>
+export const WaitlistButton = () => <Button href={WAITLIST_ROUTE}>Get My Free Blueprint</Button>
