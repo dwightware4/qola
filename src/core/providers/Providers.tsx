@@ -19,6 +19,7 @@ export const Providers = (props: PropsT) => {
       defaultTheme="system"
       enableSystem
       disableTransitionOnChange
+      forcedTheme="dark"
     >
       <MantineProvider theme={MANTINE_THEME}>
         <ThemeToggle />
