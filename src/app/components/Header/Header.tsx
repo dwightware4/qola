@@ -3,7 +3,7 @@
 import { Button, Desktop, PageSection } from '@/components'
 import { Logo, SIGN_IN_ROUTE } from '@/core'
 
-import { WaitlistButton } from '../WaitlistButton'
+import { BlueprintButton } from '../BlueprintButton'
 import { MobileNavigation } from './components'
 
 export const Header = () => (
@@ -24,7 +24,7 @@ export const Header = () => (
           Sign In
         </Button>
 
-        <WaitlistButton />
+        <BlueprintButton />
       </Desktop>
 
       <MobileNavigation />

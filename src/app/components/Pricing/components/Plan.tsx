@@ -1,5 +1,5 @@
 import type { ArrayT } from '@/types'
-import { WaitlistButton } from '@/app/components'
+import { BlueprintButton } from '@/app/components'
 import { Text } from '@/components'
 import { MAIN_COLOR } from '@/constants'
 import { CheckCircleIcon } from '@/icons'
@@ -57,7 +57,7 @@ export const Plan = (props: PropsT) => {
       </ul>
 
       <div className="mt-8 flex flex-col">
-        <WaitlistButton />
+        <BlueprintButton />
       </div>
     </section>
   )

@@ -1,6 +1,6 @@
+export * from './BlueprintButton'
 export * from './CallToAction'
 export * from './Footer'
 export * from './Header/Header'
 export * from './Hero'
 export * from './Pricing/Pricing'
-export * from './WaitlistButton'

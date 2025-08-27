@@ -1,6 +1,6 @@
 import { PageSection, Text } from '@/components'
 
-import { WaitlistButton } from './WaitlistButton'
+import { BlueprintButton } from './BlueprintButton'
 
 export const CallToAction = () => (
   <PageSection className={`bg-[url('/images/bg.svg')] bg-cover bg-center py-32`} fullWidth>
@@ -16,7 +16,7 @@ export const CallToAction = () => (
       </div>
 
       <div className="mt-10">
-        <WaitlistButton />
+        <BlueprintButton />
       </div>
     </div>
   </PageSection>

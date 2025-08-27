@@ -1,6 +1,6 @@
-import { Button, PageSection, Text } from '@/components'
+import { PageSection, Text } from '@/components'
 
-import { WaitlistButton } from './WaitlistButton'
+import { BlueprintButton } from './BlueprintButton'
 
 export const Hero = () => (
   <PageSection className="pt-20 pb-16 text-center lg:pt-32">
@@ -36,7 +36,7 @@ export const Hero = () => (
     </div>
 
     <div className="mt-10 flex justify-center gap-x-6">
-      <WaitlistButton />
+      <BlueprintButton />
 
     </div>
   </PageSection>
