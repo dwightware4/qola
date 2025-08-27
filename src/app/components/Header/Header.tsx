@@ -7,7 +7,7 @@ import { WaitlistButton } from '../WaitlistButton'
 import { MobileNavigation } from './components'
 
 export const Header = () => (
-  <PageSection as="header" className="py-10">
+  <PageSection as="header" className="py-5">
     <nav className="relative z-50 flex justify-between">
       <div className="flex items-center md:gap-x-12">
         <Logo />
@@ -19,17 +19,15 @@ export const Header = () => (
         </Desktop>
       </div>
 
-      <div>
-        <Desktop className="items-center md:gap-x-8">
-          <Button variant="subtle" href={SIGN_IN_ROUTE}>
-            Sign In
-          </Button>
+      <Desktop className="items-center md:gap-x-8">
+        <Button variant="subtle" href={SIGN_IN_ROUTE}>
+          Sign In
+        </Button>
 
-          <WaitlistButton />
-        </Desktop>
+        <WaitlistButton />
+      </Desktop>
 
-        <MobileNavigation />
-      </div>
+      <MobileNavigation />
     </nav>
   </PageSection>
 )
