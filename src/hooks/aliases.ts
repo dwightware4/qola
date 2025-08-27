@@ -1,5 +1,7 @@
 export { useUser } from '@clerk/nextjs'
 
+export { useDisclosure } from '@mantine/hooks'
+
 export { useTheme } from 'next-themes'
 
 export { usePathname } from 'next/navigation'
