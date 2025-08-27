@@ -21,7 +21,7 @@ export const viewport = { maximumScale: 1 } // Disable auto-zoom on mobile Safar
 export const metadata: MetadataT = {
   metadataBase: process.env.NEXT_PUBLIC_URL ? new URL(process.env.NEXT_PUBLIC_URL) : undefined,
   title: {
-    default: APP_NAME,
+    default: `${APP_NAME}360 - Get Message-Market Fit in 10 Days`,
     template: `%s – ${APP_NAME}`,
   },
   description: 'Construction Project Management',
