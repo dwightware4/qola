@@ -17,7 +17,6 @@ export const SURFACE_LIGHT = '#ffffff'
 export const SURFACE_DARK = '#2b2b2b'
 
 export const ACCENT = '#f7941d'
-// #f7941d
 
 type ColorThemeT = readonly [
   string,

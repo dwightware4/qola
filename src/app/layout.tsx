@@ -62,7 +62,7 @@ export const RootLayout = ({ children }: PropsT) => (
         <LogRocketBridge />
 
         {/* This sets the background and text color for the whole app (including dark mode) */}
-        <div className="dark:bg-charcoal text-main-500 min-h-screen bg-white dark:text-white">
+        <div className="dark:bg-black text-main-500 min-h-screen bg-white dark:text-white">
           <NavigationProgressBar />
 
           {children}
