@@ -9,6 +9,7 @@ type PropsT = {
   fullWidth?: boolean
   variant?: ButtonVariantT
   onClick?: () => void
+  className?: string
   // 'filled' | 'light' | 'outline' | 'transparent' | 'white' | 'subtle' | 'default' | 'gradient'
 }
 
