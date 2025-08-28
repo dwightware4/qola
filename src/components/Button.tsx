@@ -8,16 +8,18 @@ type PropsT = {
   target?: string
   fullWidth?: boolean
   variant?: ButtonVariantT
+  component?: 'a'
   onClick?: () => void
   className?: string
-  // 'filled' | 'light' | 'outline' | 'transparent' | 'white' | 'subtle' | 'default' | 'gradient'
 }
 
 export const Button = (props: PropsT) => {
   const { type = 'button', variant = 'filled', children, ...rest } = props
 
+  const component = props.href ? 'a' : 'button'
+
   return (
-    <MantineButton type={type} variant={variant} component="a" {...rest}>
+    <MantineButton type={type} variant={variant} component={component} {...rest}>
       {children}
     </MantineButton>
   )
