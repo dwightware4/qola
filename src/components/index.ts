@@ -2,7 +2,6 @@ export * from './aliases'
 
 export { Button } from './Button'
 export { Desktop } from './Desktop'
-export { Dropzone } from './Dropzone'
 export { Image } from './Image'
 export { Link } from './Link'
 export { Mobile } from './Mobile'

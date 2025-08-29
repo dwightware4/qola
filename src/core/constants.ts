@@ -11,7 +11,6 @@ export const WEBHOOK_API_ROUTE = '/api/webhooks/:path*' as const
 
 // MAIN APP ROUTES
 export const PROJECT_ROUTE = '/project' as const
-export const SPECBOOK_ROUTE = '/specbook' as const
 
 export const APP_ROOT_ROUTE = PROJECT_ROUTE
 
