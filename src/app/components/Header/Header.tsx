@@ -1,7 +1,7 @@
 'use client'
 
 import { SignIn, SignUp } from '@/app/components'
-import { Button, Desktop, PageSection } from '@/components'
+import { Desktop, PageSection } from '@/components'
 import { Logo } from '@/core'
 
 import { MobileNavigation } from './components'
@@ -12,11 +12,11 @@ export const Header = () => (
       <div className="flex items-center md:gap-x-12">
         <Logo />
 
-        <Desktop>
+        {/* <Desktop>
           <Button variant="subtle" href="#pricing">
             Pricing
           </Button>
-        </Desktop>
+        </Desktop> */}
       </div>
 
       <Desktop className="items-center md:gap-x-8">

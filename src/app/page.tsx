@@ -1,4 +1,4 @@
-import { CallToAction, Footer, Header, Hero, Pricing } from './components'
+import { CallToAction, Footer, Header, Hero } from './components'
 
 const LandingPage = () => (
   <>
@@ -7,8 +7,6 @@ const LandingPage = () => (
     <Hero />
 
     <CallToAction />
-
-    <Pricing />
 
     <Footer />
   </>

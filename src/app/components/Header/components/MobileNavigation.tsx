@@ -22,7 +22,7 @@ export const MobileNavigation = () => (
         transition
         className="dark:bg-charcoal dark:text-accent-500 absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight shadow-xl ring-1 ring-slate-900/5 data-closed:scale-95 data-closed:opacity-0 data-enter:duration-150 data-enter:ease-out data-leave:duration-100 data-leave:ease-in"
       >
-        <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+        {/* <MobileNavLink href="#pricing">Pricing</MobileNavLink> */}
 
         <hr className="m-2 border-slate-300/40" />
 

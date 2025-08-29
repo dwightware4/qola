@@ -12,7 +12,8 @@ const LABELS = {
   formButtonPrimary: 'Continue',
   signUp: {
     start: {
-      subtitle: 'Welcome! Please enter your email to get started',
+      title: 'Get Your Free Blueprint',
+      subtitle: 'Please enter your email to get started',
     },
   },
 }
