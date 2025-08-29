@@ -1,11 +1,8 @@
 'use client'
 
-import { Checkbox, Group } from '@mantine/core'
-import { isEmail, isNotEmpty, matches } from '@mantine/form'
-
-import { useActionState, useState } from 'react'
-import { Button, ButtonModal, TextInput } from '@/components'
-import { useForm } from '@/hooks'
+import { Button, ButtonModal, Checkbox, Group, TextInput } from '@/components'
+import { useActionState, useForm, useState } from '@/hooks'
+import { isEmail, isNotEmpty, matches } from '@/utils'
 
 import { create } from '../actions/blueprint'
 

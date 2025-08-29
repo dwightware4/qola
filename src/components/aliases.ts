@@ -8,4 +8,4 @@ export {
   PopoverPanel,
   TransitionChild,
 } from '@headlessui/react'
-export { Affix, TextInput } from '@mantine/core'
+export { Affix, Checkbox, Group, TextInput } from '@mantine/core'
