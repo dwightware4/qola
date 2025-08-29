@@ -3,7 +3,7 @@
 import type { ReactNodeT } from '@/types'
 
 import { ClerkProvider } from '@clerk/nextjs'
-import { getClerkTheme, PRIVACY_ROUTE, SIGN_IN_ROUTE, SIGN_UP_ROUTE, TERMS_ROUTE, WAITLIST_ROUTE } from '@/core'
+import { getClerkTheme, PRIVACY_ROUTE, TERMS_ROUTE } from '@/core'
 import { useTheme } from '@/hooks'
 
 import './auth-provider.css'
@@ -28,9 +28,9 @@ export const AuthProvider = (props: PropsT) => {
 
   return (
     <ClerkProvider
-      waitlistUrl={WAITLIST_ROUTE}
-      signInUrl={SIGN_IN_ROUTE}
-      signUpUrl={SIGN_UP_ROUTE}
+      // waitlistUrl={WAITLIST_ROUTE}
+      // signInUrl={SIGN_IN_ROUTE}
+      // signUpUrl={SIGN_UP_ROUTE}
       localization={LABELS}
       publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY!}
       appearance={{

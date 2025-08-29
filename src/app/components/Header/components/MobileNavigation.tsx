@@ -1,7 +1,7 @@
+import { SignIn } from '@/app/components'
 import { Mobile, Popover, PopoverBackdrop, PopoverButton, PopoverPanel } from '@/components'
-import { SIGN_IN_ROUTE } from '@/core'
 
-import { MobileNavIcon, MobileNavLink } from '.'
+import { MobileNavIcon } from '.'
 
 export const MobileNavigation = () => (
   <Mobile>
@@ -24,9 +24,9 @@ export const MobileNavigation = () => (
       >
         {/* <MobileNavLink href="#pricing">Pricing</MobileNavLink> */}
 
-        <hr className="m-2 border-slate-300/40" />
+        {/* <hr className="m-2 border-slate-300/40" /> */}
 
-        <MobileNavLink href={SIGN_IN_ROUTE}>Sign in</MobileNavLink>
+        <SignIn />
       </PopoverPanel>
     </Popover>
   </Mobile>
