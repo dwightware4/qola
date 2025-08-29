@@ -1,8 +1,8 @@
 'use client'
 
 import { Checkbox, Group } from '@mantine/core'
-
 import { isEmail, isNotEmpty, matches } from '@mantine/form'
+
 import { useActionState, useState } from 'react'
 import { Button, Modal, TextInput } from '@/components'
 import { useDisclosure, useForm } from '@/hooks'
@@ -48,6 +48,7 @@ export const BlueprintButton = () => {
               placeholder="Your Name"
               key={form.key('name')}
               name="name"
+              data-autofocus
               {...form.getInputProps('name')}
             />
 
