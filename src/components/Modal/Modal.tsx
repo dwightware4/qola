@@ -5,9 +5,9 @@ import type { ReactNodeT } from '@/types'
 import { Modal as MantineModal } from '@mantine/core'
 
 type PropsT = {
-  children?: ReactNodeT
-  onClose: () => void
   opened: boolean
+  onClose: () => void
+  children?: ReactNodeT
   title?: string
 }
 

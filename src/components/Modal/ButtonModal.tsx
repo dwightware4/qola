@@ -5,7 +5,7 @@ import { Button, Modal } from '@/components'
 import { useDisclosure } from '@/hooks'
 
 type PropsT = {
-  children: ReactNodeT
+  children?: ReactNodeT
   title?: string
   buttonLabel?: string
 }
