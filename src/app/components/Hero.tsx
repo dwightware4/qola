@@ -1,6 +1,5 @@
+import { SignUp } from '@/app/components'
 import { PageSection, Text } from '@/components'
-
-import { BlueprintButton } from './BlueprintButton'
 
 export const Hero = () => (
   <PageSection className="pt-20 pb-16 text-center lg:pt-32">
@@ -36,7 +35,7 @@ export const Hero = () => (
     </div>
 
     <div className="mt-10 flex justify-center gap-x-6">
-      <BlueprintButton />
+      <SignUp />
 
     </div>
   </PageSection>

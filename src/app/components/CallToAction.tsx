@@ -1,6 +1,6 @@
-import { PageSection, Text } from '@/components'
+import { SignUp } from '@/app/components'
 
-import { BlueprintButton } from './BlueprintButton'
+import { PageSection, Text } from '@/components'
 
 export const CallToAction = () => (
   <PageSection className={`bg-[url('/images/bg.svg')] bg-cover bg-center py-32`} fullWidth>
@@ -16,7 +16,7 @@ export const CallToAction = () => (
       </div>
 
       <div className="mt-10">
-        <BlueprintButton />
+        <SignUp />
       </div>
     </div>
   </PageSection>

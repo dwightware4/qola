@@ -1,4 +1,5 @@
-export * from './BlueprintButton'
+export { SignIn } from './auth/SignIn'
+export { SignUp } from './auth/SignUp'
 export * from './CallToAction'
 export * from './Footer'
 export * from './Header/Header'

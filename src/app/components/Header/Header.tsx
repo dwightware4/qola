@@ -1,9 +1,9 @@
 'use client'
 
+import { SignIn, SignUp } from '@/app/components'
 import { Button, Desktop, PageSection } from '@/components'
-import { Logo, SIGN_IN_ROUTE } from '@/core'
+import { Logo } from '@/core'
 
-import { BlueprintButton } from '../BlueprintButton'
 import { MobileNavigation } from './components'
 
 export const Header = () => (
@@ -20,11 +20,9 @@ export const Header = () => (
       </div>
 
       <Desktop className="items-center md:gap-x-8">
-        <Button variant="subtle" href={SIGN_IN_ROUTE}>
-          Sign In
-        </Button>
+        <SignIn />
 
-        <BlueprintButton />
+        <SignUp />
       </Desktop>
 
       <MobileNavigation />
