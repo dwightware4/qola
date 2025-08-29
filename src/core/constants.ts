@@ -10,6 +10,7 @@ export const NOT_FOUND_ROUTE = '/not-found' as const
 export const WEBHOOK_API_ROUTE = '/api/webhooks/:path*' as const
 
 // MAIN APP ROUTES
+export const COMPANY_INFO_ROUTE = '/company-info' as const
 export const LP_ANALYSIS_ROUTE = '/lp-analysis' as const
 export const OFFER_BLUEPRINT_ROUTE = '/offer-blueprint' as const
 export const ICP_ROUTE = '/icp' as const

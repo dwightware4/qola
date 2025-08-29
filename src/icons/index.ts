@@ -5,6 +5,7 @@ export {
   ChartBarIcon,
   CheckCircleIcon,
   DocumentMagnifyingGlassIcon,
+  IdentificationIcon,
   MapIcon,
   PhotoIcon,
   UserIcon,
