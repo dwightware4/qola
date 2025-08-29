@@ -10,9 +10,10 @@ export const NOT_FOUND_ROUTE = '/not-found' as const
 export const WEBHOOK_API_ROUTE = '/api/webhooks/:path*' as const
 
 // MAIN APP ROUTES
-export const PROJECT_ROUTE = '/project' as const
-
-export const APP_ROOT_ROUTE = PROJECT_ROUTE
+export const LP_ANALYSIS_ROUTE = '/lp-analysis' as const
+export const OFFER_BLUEPRINT_ROUTE = '/offer-blueprint' as const
+export const ICP_ROUTE = '/icp' as const
+export const GAP_ANALYSIS_ROUTE = '/gap-analysis' as const
 
 // Hybrid routes are available to both signed-in and signed-out users
 export const HYBRID_ROUTES = [PRIVACY_ROUTE, TERMS_ROUTE, WEBHOOK_API_ROUTE, NOT_FOUND_ROUTE]
