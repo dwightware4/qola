@@ -15,6 +15,7 @@ export const LP_ANALYSIS_ROUTE = '/lp-analysis' as const
 export const OFFER_BLUEPRINT_ROUTE = '/offer-blueprint' as const
 export const ICP_ROUTE = '/icp' as const
 export const GAP_ANALYSIS_ROUTE = '/gap-analysis' as const
+export const ONBOARDING_ROUTE = '/onboarding' as const
 
 // Hybrid routes are available to both signed-in and signed-out users
 export const HYBRID_ROUTES = [PRIVACY_ROUTE, TERMS_ROUTE, WEBHOOK_API_ROUTE, NOT_FOUND_ROUTE]

@@ -9,13 +9,17 @@ type PropsT = {
   onClose: () => void
   children?: ReactNodeT
   title?: string
+  closeOnClickOutside?: boolean
+  closeOnEscape?: boolean
+  withCloseButton?: boolean
+  className?: string
 }
 
 export const Modal = (props: PropsT) => {
-  const { children, opened, onClose, title } = props
+  const { children, ...rest } = props
 
   return (
-    <MantineModal opened={opened} onClose={onClose} title={title}>
+    <MantineModal {...rest}>
       {children}
     </MantineModal>
   )
