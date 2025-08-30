@@ -5,15 +5,15 @@ import { isNotEmpty, useForm } from '@mantine/form'
 
 import { Form, TextInput } from '@/components'
 
-import { updateCompanyInfo } from './actions'
+import { updateCompanyInfo } from './actions/update'
 
 const CompanyInfoPage = () => {
   const form = useForm({
     mode: 'uncontrolled',
     onSubmitPreventDefault: 'validation-failed',
     initialValues: {
-      companyName: 'BuildFlow',
-      companyWebsite: 'buildflow.tech',
+      companyName: '',
+      companyWebsite: '',
     },
 
     validate: {
