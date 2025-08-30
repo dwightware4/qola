@@ -1,5 +1,6 @@
 'use client'
 
+import { createCompanyInfo } from '@/app/(app)/company-info/actions/create'
 import { CompanyForm } from '@/app/(app)/company-info/components/CompanyForm'
 
 import { Modal } from '@/components'
@@ -15,7 +16,7 @@ const OnboardingPage = () => {
         withCloseButton={false}
         onClose={() => { }}
       >
-        <CompanyForm />
+        <CompanyForm action={createCompanyInfo} />
       </Modal>
     </div>
   )

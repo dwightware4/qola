@@ -7,7 +7,9 @@ import { Form, TextInput } from '@/components'
 
 import { updateCompanyInfo } from '../actions/update'
 
-export const CompanyForm = () => {
+export const CompanyForm = (props: { action?: any }) => {
+  const { action = updateCompanyInfo } = props
+
   const form = useForm({
     mode: 'uncontrolled',
     onSubmitPreventDefault: 'validation-failed',
@@ -15,7 +17,6 @@ export const CompanyForm = () => {
       companyName: '',
       companyWebsite: '',
     },
-
     validate: {
       companyName: isNotEmpty(),
       companyWebsite: isNotEmpty(),
@@ -23,7 +24,7 @@ export const CompanyForm = () => {
   })
 
   return (
-    <Form action={updateCompanyInfo} form={form}>
+    <Form action={action} form={form}>
       <TextInput
         name="companyName"
         label="Company Name"
@@ -42,7 +43,7 @@ export const CompanyForm = () => {
       />
 
       <Group justify="flex-end" mt="md">
-        <Button type="submit" formAction={updateCompanyInfo}>Save</Button>
+        <Button type="submit" formAction={action}>Save</Button>
       </Group>
     </Form>
   )

@@ -3,24 +3,23 @@
 import type { FormDataT } from '@/types'
 
 import { auth } from '@clerk/nextjs/server'
-import { eq } from 'drizzle-orm'
-import { revalidatePath } from 'next/cache'
+import { redirect } from 'next/navigation'
+
 import { db } from '@/db'
 import { company } from '@/db/schema/company'
 
-export const updateCompanyInfo = async (formData: FormDataT) => {
+export const createCompanyInfo = async (formData: FormDataT) => {
   const { userId } = await auth()
 
   const name = formData.get('companyName') as string
   const website = formData.get('companyWebsite') as string
 
-  await db
-    .update(company)
-    .set({
+  await db.insert(company)
+    .values({
+      userId: userId as string,
       name: name.trim(),
       websiteUrl: website.trim(),
     })
-    .where(eq(company.userId, userId as string))
 
-  revalidatePath('/company-info')
+  redirect('/')
 }
