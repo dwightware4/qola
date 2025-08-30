@@ -1,5 +1,5 @@
 {
-  "id": "3679dadf-4c90-4d09-94f7-f1e5feed5d10",
+  "id": "9a7a1f77-0a9a-44e5-ad6e-13425437258e",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -10,32 +10,10 @@
       "columns": {
         "id": {
           "name": "id",
-          "type": "integer",
+          "type": "uuid",
           "primaryKey": true,
           "notNull": true,
-          "identity": {
-            "type": "always",
-            "name": "companies_id_seq",
-            "schema": "public",
-            "increment": "1",
-            "startWith": "1000",
-            "minValue": "1",
-            "maxValue": "2147483647",
-            "cache": "1",
-            "cycle": false
-          }
-        },
-        "name": {
-          "name": "name",
-          "type": "varchar(255)",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "website": {
-          "name": "website",
-          "type": "varchar(255)",
-          "primaryKey": false,
-          "notNull": true
+          "default": "gen_random_uuid()"
         },
         "user_id": {
           "name": "user_id",
@@ -43,17 +21,38 @@
           "primaryKey": false,
           "notNull": true
         },
-        "updated_at": {
-          "name": "updated_at",
-          "type": "timestamp",
+        "name": {
+          "name": "name",
+          "type": "text",
           "primaryKey": false,
-          "notNull": false
+          "notNull": true
+        },
+        "website_url": {
+          "name": "website_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "profile_status": {
+          "name": "profile_status",
+          "type": "profile_status",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'new'"
         },
         "created_at": {
           "name": "created_at",
-          "type": "timestamp",
+          "type": "timestamp with time zone",
           "primaryKey": false,
-          "notNull": true,
+          "notNull": false,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false,
           "default": "now()"
         }
       },
@@ -61,18 +60,18 @@
       "foreignKeys": {},
       "compositePrimaryKeys": {},
       "uniqueConstraints": {
-        "companies_website_unique": {
-          "name": "companies_website_unique",
-          "nullsNotDistinct": false,
-          "columns": [
-            "website"
-          ]
-        },
         "companies_user_id_unique": {
           "name": "companies_user_id_unique",
           "nullsNotDistinct": false,
           "columns": [
             "user_id"
+          ]
+        },
+        "companies_website_url_unique": {
+          "name": "companies_website_url_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "website_url"
           ]
         }
       },
@@ -81,7 +80,17 @@
       "isRLSEnabled": false
     }
   },
-  "enums": {},
+  "enums": {
+    "public.profile_status": {
+      "name": "profile_status",
+      "schema": "public",
+      "values": [
+        "new",
+        "researching",
+        "ready"
+      ]
+    }
+  },
   "schemas": {},
   "sequences": {},
   "roles": {},
