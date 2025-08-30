@@ -4,6 +4,12 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+*:focus {
+  outline: 2px solid #f7941d !important;
+  border: none !important;
+  --tw-ring-shadow: none !important;
+}
+
 @theme {
   /* COLORS */
   --color-accent-50: #fff7eb;
