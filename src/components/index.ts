@@ -2,6 +2,7 @@ export * from './aliases'
 
 export { Button } from './Button'
 export { Desktop } from './Desktop'
+export { Form, TextInput } from './Form'
 export { Image } from './Image'
 export { Link } from './Link'
 export { Mobile } from './Mobile'
