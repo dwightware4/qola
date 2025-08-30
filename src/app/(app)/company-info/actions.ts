@@ -2,14 +2,23 @@
 
 import type { FormDataT } from '@/types'
 
-export const updateCompanyInfo = async (formData: FormDataT) => {
-  const name = formData.get('companyName')
-  const website = formData.get('companyWebsite')
+import { auth } from '@clerk/nextjs/server'
+import { db } from '@/db'
+import { companies } from '@/db/schema/companies'
 
-  // Connect to neon with drizzle and setup the actual database so we can update it here
-  /* eslint-disable no-console */
-  console.log('name', name)
-  console.log('website', website)
+export const updateCompanyInfo = async (formData: FormDataT) => {
+  const { userId } = await auth()
+
+  const name = formData.get('companyName') as string
+  const website = formData.get('companyWebsite') as string
+
+  await db
+    .insert(companies)
+    .values({ name, website, user_id: userId as string })
+    .onConflictDoUpdate({
+      target: companies.user_id, // column with unique constraint
+      set: { name, website }, // fields to update if conflict occurs
+    })
 
   // Revalidate cache
   // TODO
