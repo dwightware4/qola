@@ -1,7 +1,7 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
 import { NextResponse } from 'next/server'
 
-import { HYBRID_ROUTES, LP_ANALYSIS_ROUTE, PUBLIC_ROUTES } from '@/core'
+import { APP_DEFAULT_ROUTE, HYBRID_ROUTES, PUBLIC_ROUTES } from '@/core'
 
 const isHybridRoute = createRouteMatcher(HYBRID_ROUTES)
 const isPublicRoute = createRouteMatcher(PUBLIC_ROUTES)
@@ -17,7 +17,7 @@ export const authMiddleware = async (auth: any, request: any) => {
 
   if (isPublicRoute(request)) {
     if (userId) {
-      return NextResponse.redirect(new URL(LP_ANALYSIS_ROUTE, nextUrl))
+      return NextResponse.redirect(new URL(APP_DEFAULT_ROUTE, nextUrl))
     }
     else {
       return NextResponse.next()

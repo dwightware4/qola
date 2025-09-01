@@ -17,6 +17,8 @@ export const ICP_ROUTE = '/icp' as const
 export const GAP_ANALYSIS_ROUTE = '/gap-analysis' as const
 export const ONBOARDING_ROUTE = '/onboarding' as const
 
+export const APP_DEFAULT_ROUTE = COMPANY_INFO_ROUTE
+
 // Hybrid routes are available to both signed-in and signed-out users
 export const HYBRID_ROUTES = [PRIVACY_ROUTE, TERMS_ROUTE, WEBHOOK_API_ROUTE, NOT_FOUND_ROUTE]
 
