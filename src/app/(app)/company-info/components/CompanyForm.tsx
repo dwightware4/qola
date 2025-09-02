@@ -5,17 +5,21 @@ import { isNotEmpty, useForm } from '@mantine/form'
 
 import { Form, TextInput } from '@/components'
 
-import { updateCompanyInfo } from '../actions/update'
+import { upsertCompany } from '../actions/upsert'
 
-export const CompanyForm = (props: { action?: any }) => {
-  const { action = updateCompanyInfo } = props
+type PropsT = {
+  company?: any
+}
+
+export const CompanyForm = (props: PropsT) => {
+  const { company } = props
 
   const form = useForm({
     mode: 'uncontrolled',
     onSubmitPreventDefault: 'validation-failed',
     initialValues: {
-      companyName: '',
-      companyWebsite: '',
+      companyName: company?.name || '',
+      companyWebsite: company?.websiteUrl || '',
     },
     validate: {
       companyName: isNotEmpty(),
@@ -24,7 +28,7 @@ export const CompanyForm = (props: { action?: any }) => {
   })
 
   return (
-    <Form action={action} form={form}>
+    <Form action={upsertCompany} form={form}>
       <TextInput
         name="companyName"
         label="Company Name"
@@ -43,7 +47,7 @@ export const CompanyForm = (props: { action?: any }) => {
       />
 
       <Group justify="flex-end" mt="md">
-        <Button type="submit" formAction={action}>Save</Button>
+        <Button type="submit" formAction={upsertCompany}>Save</Button>
       </Group>
     </Form>
   )

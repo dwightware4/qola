@@ -11,6 +11,7 @@ type PropsT = {
   component?: 'a'
   onClick?: () => void
   className?: string
+  disabled?: boolean
 }
 
 export const Button = (props: PropsT) => {
