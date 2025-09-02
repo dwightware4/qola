@@ -1,10 +1,10 @@
 import { auth } from '@clerk/nextjs/server'
 import { Text } from '@mantine/core'
 
-import { Button } from '@/components'
 import { getCompanyByUserId } from '@/db/queries/company'
 
 import { CompanyForm } from './components/CompanyForm'
+import { InitiateButton } from './components/InitiateButton'
 
 const CompanyInfoPage = async () => {
   const { userId } = await auth()
@@ -20,7 +20,7 @@ const CompanyInfoPage = async () => {
 
       <br />
 
-      <Button disabled={!company}>Initiate Market Research</Button>
+      <InitiateButton />
     </div>
   )
 }
