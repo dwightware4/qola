@@ -11,8 +11,8 @@ export type NavItemsT = NavItemT[]
 
 export const NAV_ITEMS: NavItemsT = [
   { name: 'Company Info', href: COMPANY_INFO_ROUTE, icon: IdentificationIcon },
-  { name: 'LP Analysis', href: LP_ANALYSIS_ROUTE, icon: ChartBarIcon },
   { name: 'Offer Blueprint', href: OFFER_BLUEPRINT_ROUTE, icon: MapIcon },
   { name: 'Ideal Customer Profile', href: ICP_ROUTE, icon: UserIcon },
-  { name: 'Gap Analysis', href: GAP_ANALYSIS_ROUTE, icon: DocumentMagnifyingGlassIcon },
+  { name: 'Landing Page Insights', href: LP_ANALYSIS_ROUTE, icon: ChartBarIcon },
+  { name: 'Validation Gap Analysis', href: GAP_ANALYSIS_ROUTE, icon: DocumentMagnifyingGlassIcon },
 ]
