@@ -14,13 +14,13 @@ const LPAnalysisPage = () => {
           </div>
 
           <Text as="h1" size="3xl" className="font-display font-medium tracking-tight sm:text-5xl">
-            Landing Page Insights
+            Landing Page Analysis
           </Text>
 
           <div className="mx-auto mt-6 max-w-2xl">
             <Text size="lg" className="tracking-tight text-gray-600">
-              Define and understand your ideal customer with detailed demographics, psychographics,
-              and behavioral insights to optimize your marketing and sales efforts.
+              Get comprehensive insights into your landing page performance with detailed analytics,
+              conversion optimization recommendations, and user behavior analysis to maximize your ROI.
             </Text>
           </div>
 
@@ -36,51 +36,51 @@ const LPAnalysisPage = () => {
       <PageSection className="py-16">
         <div className="mx-auto max-w-4xl">
           <Text as="h2" size="2xl" className="text-center font-display font-medium mb-12">
-            What You'll Get
+            What You'll Discover
           </Text>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <ChartBarIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Customer Demographics Analysis
+                Performance Metrics Analysis
               </Text>
               <Text className="text-gray-600">
-                Detailed breakdown of your ideal customer's age, location, income, education,
-                and other key demographic characteristics.
+                Detailed breakdown of conversion rates, bounce rates, time on page,
+                and other key performance indicators that impact your success.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <WrenchScrewdriverIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Behavioral Insights
+                User Experience Insights
               </Text>
               <Text className="text-gray-600">
-                Understand your customer's buying patterns, decision-making process,
-                and preferred communication channels for maximum engagement.
+                Understand how visitors interact with your page, identify friction points,
+                and discover optimization opportunities to improve user flow.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <CheckCircleIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Pain Points & Motivations
+                Conversion Optimization
               </Text>
               <Text className="text-gray-600">
-                Identify the key challenges your ideal customers face and what motivates
-                them to seek solutions like yours.
+                Get specific recommendations for improving your call-to-action placement,
+                form design, and messaging to boost conversion rates.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <DocumentMagnifyingGlassIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Marketing & Sales Strategy
+                Content & Messaging Review
               </Text>
               <Text className="text-gray-600">
-                Get targeted recommendations for reaching your ideal customers through
-                the right channels with the right messaging.
+                Analyze your headline effectiveness, value proposition clarity,
+                and overall messaging alignment with your target audience.
               </Text>
             </div>
           </div>
@@ -101,10 +101,10 @@ const LPAnalysisPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  Share Your Business Details
+                  Submit Your Landing Page
                 </Text>
                 <Text className="text-gray-600">
-                  Provide information about your business, current customers, and target market.
+                  Provide your landing page URL and share your campaign goals and target metrics.
                 </Text>
               </div>
             </div>
@@ -115,10 +115,10 @@ const LPAnalysisPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  AI-Powered Analysis
+                  Comprehensive Analysis
                 </Text>
                 <Text className="text-gray-600">
-                  Our advanced algorithms analyze your data against market insights and customer behavior patterns.
+                  Our AI analyzes your page structure, content, design, and performance against best practices and industry benchmarks.
                 </Text>
               </div>
             </div>
@@ -129,10 +129,10 @@ const LPAnalysisPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  Get Your Customer Profile
+                  Get Actionable Insights
                 </Text>
                 <Text className="text-gray-600">
-                  Receive a detailed ICP report with actionable insights for targeting and engaging your ideal customers.
+                  Receive a detailed report with specific recommendations and priority optimizations to improve your conversion rates.
                 </Text>
               </div>
             </div>
