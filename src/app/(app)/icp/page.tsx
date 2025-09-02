@@ -19,8 +19,8 @@ const ICPPage = () => {
 
           <div className="mx-auto mt-6 max-w-2xl">
             <Text size="lg" className="tracking-tight text-gray-600">
-              Get a comprehensive analysis of your offer structure, pricing strategy, and value proposition
-              to maximize conversions and customer satisfaction.
+              Define and understand your ideal customer with detailed demographics, psychographics,
+              and behavioral insights to optimize your marketing and sales efforts.
             </Text>
           </div>
 
@@ -43,44 +43,44 @@ const ICPPage = () => {
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <ChartBarIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Offer Performance Analysis
+                Customer Demographics Analysis
               </Text>
               <Text className="text-gray-600">
-                Deep dive into your current offer structure, identifying strengths and areas for improvement
-                to maximize your conversion rates.
+                Detailed breakdown of your ideal customer's age, location, income, education,
+                and other key demographic characteristics.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <WrenchScrewdriverIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Pricing Strategy Optimization
+                Behavioral Insights
               </Text>
               <Text className="text-gray-600">
-                Get data-driven recommendations for pricing models, packages, and positioning
-                that align with your target market's expectations.
+                Understand your customer's buying patterns, decision-making process,
+                and preferred communication channels for maximum engagement.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <CheckCircleIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Value Proposition Refinement
+                Pain Points & Motivations
               </Text>
               <Text className="text-gray-600">
-                Clarify and strengthen your value proposition to better communicate
-                the unique benefits your offer provides to customers.
+                Identify the key challenges your ideal customers face and what motivates
+                them to seek solutions like yours.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <DocumentMagnifyingGlassIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Competitive Positioning
+                Marketing & Sales Strategy
               </Text>
               <Text className="text-gray-600">
-                Understand how your offer stacks up against competitors and identify
-                opportunities to differentiate and stand out in the market.
+                Get targeted recommendations for reaching your ideal customers through
+                the right channels with the right messaging.
               </Text>
             </div>
           </div>
@@ -101,10 +101,10 @@ const ICPPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  Submit Your Offer Details
+                  Share Your Business Details
                 </Text>
                 <Text className="text-gray-600">
-                  Provide information about your current offer, pricing, and target audience.
+                  Provide information about your business, current customers, and target market.
                 </Text>
               </div>
             </div>
@@ -118,7 +118,7 @@ const ICPPage = () => {
                   AI-Powered Analysis
                 </Text>
                 <Text className="text-gray-600">
-                  Our advanced algorithms analyze your offer against market data and best practices.
+                  Our advanced algorithms analyze your data against market insights and customer behavior patterns.
                 </Text>
               </div>
             </div>
@@ -129,10 +129,10 @@ const ICPPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  Get Your Blueprint
+                  Get Your Customer Profile
                 </Text>
                 <Text className="text-gray-600">
-                  Receive a comprehensive report with actionable recommendations and optimization strategies.
+                  Receive a detailed ICP report with actionable insights for targeting and engaging your ideal customers.
                 </Text>
               </div>
             </div>
