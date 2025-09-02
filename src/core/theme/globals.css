@@ -1,13 +1,9 @@
 @import 'tailwindcss';
 
-@plugin '@tailwindcss/forms';
-
 @custom-variant dark (&:where(.dark, .dark *));
 
-*:focus {
-  outline: 2px solid #f7941d !important;
-  border: none !important;
-  --tw-ring-shadow: none !important;
+* {
+  outline-color: #f1750f;
 }
 
 @theme {
