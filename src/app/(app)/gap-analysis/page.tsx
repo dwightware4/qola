@@ -19,8 +19,8 @@ const GapAnalysisPage = () => {
 
           <div className="mx-auto mt-6 max-w-2xl">
             <Text size="lg" className="tracking-tight text-gray-600">
-              Get a comprehensive analysis of your offer structure, pricing strategy, and value proposition
-              to maximize conversions and customer satisfaction.
+              Identify critical gaps between your market assumptions and real customer needs.
+              Validate your ideas before you build and avoid costly mistakes.
             </Text>
           </div>
 
@@ -36,51 +36,51 @@ const GapAnalysisPage = () => {
       <PageSection className="py-16">
         <div className="mx-auto max-w-4xl">
           <Text as="h2" size="2xl" className="text-center font-display font-medium mb-12">
-            What You'll Get
+            Uncover Hidden Gaps
           </Text>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <ChartBarIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Offer Performance Analysis
+                Market Reality Check
               </Text>
               <Text className="text-gray-600">
-                Deep dive into your current offer structure, identifying strengths and areas for improvement
-                to maximize your conversion rates.
+                Compare your assumptions against real market data to identify where your understanding
+                might be off-target and what customers actually want.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <WrenchScrewdriverIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Pricing Strategy Optimization
+                Solution-Problem Fit Analysis
               </Text>
               <Text className="text-gray-600">
-                Get data-driven recommendations for pricing models, packages, and positioning
-                that align with your target market's expectations.
+                Evaluate how well your proposed solution addresses real customer problems
+                and discover gaps in your approach before investing resources.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <CheckCircleIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Value Proposition Refinement
+                Customer Validation Insights
               </Text>
               <Text className="text-gray-600">
-                Clarify and strengthen your value proposition to better communicate
-                the unique benefits your offer provides to customers.
+                Get clear recommendations on what to validate with customers, which assumptions
+                to test first, and how to gather meaningful feedback.
               </Text>
             </div>
 
             <div className="bg-gray-950 p-6 rounded-lg shadow-sm">
               <DocumentMagnifyingGlassIcon className="h-8 w-8 text-accent-500 mb-4" />
               <Text as="h3" size="lg" className="font-medium mb-3">
-                Competitive Positioning
+                Risk Assessment Report
               </Text>
               <Text className="text-gray-600">
-                Understand how your offer stacks up against competitors and identify
-                opportunities to differentiate and stand out in the market.
+                Understand which gaps pose the highest risk to your success and get a prioritized
+                action plan to address them systematically.
               </Text>
             </div>
           </div>
@@ -101,10 +101,10 @@ const GapAnalysisPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  Submit Your Offer Details
+                  Share Your Assumptions
                 </Text>
                 <Text className="text-gray-600">
-                  Provide information about your current offer, pricing, and target audience.
+                  Tell us about your target market, customer problems, and proposed solution approach.
                 </Text>
               </div>
             </div>
@@ -115,10 +115,10 @@ const GapAnalysisPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  AI-Powered Analysis
+                  Gap Identification Engine
                 </Text>
                 <Text className="text-gray-600">
-                  Our advanced algorithms analyze your offer against market data and best practices.
+                  Our AI analyzes your assumptions against market reality to identify critical validation gaps.
                 </Text>
               </div>
             </div>
@@ -129,10 +129,10 @@ const GapAnalysisPage = () => {
               </div>
               <div>
                 <Text as="h3" size="lg" className="font-medium mb-2">
-                  Get Your Blueprint
+                  Get Your Validation Roadmap
                 </Text>
                 <Text className="text-gray-600">
-                  Receive a comprehensive report with actionable recommendations and optimization strategies.
+                  Receive a detailed report highlighting gaps and a step-by-step plan to validate your assumptions.
                 </Text>
               </div>
             </div>
